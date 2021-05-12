@@ -239,8 +239,8 @@ const extractStats = (arr) => {
 
   return arr.map(obj => {
     let x = obj.effort + obj.baseStat
-    console.log('this is x', x);
-    console.log('this is name', obj.stat.name);
+      // console.log('this is x', x);
+      // console.log('this is name', obj.stat.name);
     return { name: obj.stat.name, total: x }
   })
 };
